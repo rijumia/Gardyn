@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap cdn -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- font awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Plant Mtchmaker</title>
+</head>
+
+<body>
+
+
+    <section class="header">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="image/logo1.webp" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-light">
+                                <li class="nav-item">
+                                    <a class="nav-link  fw-blod" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-blod" href="#">Product</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-blod" href="About.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-blod" href="contact.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- bannar section -->
+    <section class="innar">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="innar_text text-center py-5">
+                        <h1 class="text-center text-light fw-bold">Product</h1>
+                        <strong class="text-light"><a href="#" class="text-light">Home</a> / Product</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- short vedio -->
+
+    <section class="short_vedio py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rKJmq8Z8cKg?si=0JcsgtRsxSTty1D0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </section>
+   
+    
+
+     <!-- construct section -->
+
+     <section class="construct">
+        <div class="container tips-container">
+            <h2 class="text-center mb-4">Plant Parent Tips</h2>
+        
+            <!-- Tip Submission Form -->
+            <div class="tip-form">
+              <h4 class="text-center mb-4">Share Your Plant Care Tips</h4>
+              <form action="#" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                  <label for="tipTitle">Plant Name</label>
+                  <input type="text" class="form-control" id="tipTitle" name="tipTitle" required placeholder="Enter plant name">
+                </div>
+                <div class="form-group">
+                  <label for="tipText">Care Tips</label>
+                  <textarea class="form-control" id="tipText" name="tipText" rows="4" required placeholder="Share your care experience..."></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="tipImage">Upload Photo</label>
+                  <input type="file" class="form-control" id="tipImage" name="tipImage" accept="image/*">
+                </div>
+                <div class="d-grid">
+                  <button type="submit" class="submit-button">Submit Tip</button>
+                </div>
+              </form>
+            </div>
+        
+            <!-- Shared Plant Care Tips -->
+            <div class="row mt-5">
+              <!-- Sample Plant Parent Tip 1 -->
+              <div class="col-md-4">
+                <div class="tip-card">
+                  <img src="image/2.webp" alt="Snake Plant">
+                  <h5 class="tip-title">Snake Plant Care Tip</h5>
+                  <p class="tip-text">Snake plants are super low-maintenance! I water mine only when the soil is completely dry. They thrive in indirect light and don't need frequent repotting.</p>
+                  <div class="tip-footer">
+                    <small>Shared by: Jane D. | 12/10/2024</small>
+                  </div>
+                </div>
+              </div>
+        
+              <!-- Sample Plant Parent Tip 2 -->
+              <div class="col-md-4">
+                <div class="tip-card">
+                  <img src="image/3.webp" alt="Spider Plant">
+                  <h5 class="tip-title">Spider Plant Care Tip</h5>
+                  <p class="tip-text">Spider plants need a little more attention. I mist mine regularly and keep it in a spot with indirect sunlight. The babies (offshoots) are so cute!</p>
+                  <div class="tip-footer">
+                    <small>Shared by: John S. | 10/25/2024</small>
+                  </div>
+                </div>
+              </div>
+        
+              <!-- Sample Plant Parent Tip 3 -->
+              <div class="col-md-4">
+                <div class="tip-card">
+                  <img src="image/4.webp" alt="Fiddle Leaf Fig">
+                  <h5 class="tip-title">Fiddle Leaf Fig Care Tip</h5>
+                  <p class="tip-text">My Fiddle Leaf Fig loves bright, indirect light. I've found that watering it every 10 days is perfect. It’s a bit picky, but so worth the effort!</p>
+                  <div class="tip-footer">
+                    <small>Shared by: Emily W. | 09/15/2024</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+          </div>
+     </section>
+
+
+     <!-- add to card section -->
+
+        <section class="add_card">
+            <div class="container section-padding" id="plant-care-guides">
+                <h2 class="section-title">Plant Care Guides</h2>
+                <p class="section-subtitle">Learn how to keep your plants healthy and thriving.</p>
+                <div class="row">
+                  <!-- Care Guide 1 -->
+                  <div class="col-md-4 mb-4">
+                    <div class="card">
+                      <img src="image/1.webp" class="card-img-top" alt="Indoor Plant Care">
+                      <div class="card-body">
+                        <p class="plant-title">Indoor Plant Care</p>
+                        <div class="but text-center w-100 bg-success">
+                            <a href="#" class="care-guide-link text-light py-3">Add to Card<i class="fa-solid fa-cart-shopping ms-2"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Care Guide 2 -->
+                  <div class="col-md-4 mb-4">
+                    <div class="card">
+                      <img src="image/2.webp" class="card-img-top" alt="Watering Tips">
+                      <div class="card-body">
+                        <p class="plant-title">Watering Tips</p>
+                        <div class="but text-center w-100 bg-success">
+                            <a href="#" class="care-guide-link text-light py-3">Add to Card<i class="fa-solid fa-cart-shopping ms-2"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Care Guide 3 -->
+                  <div class="col-md-4 mb-4">
+                    <div class="card">
+                      <img src="image/4.webp" class="card-img-top" alt="Light Requirements">
+                      <div class="card-body">
+                        <p class="plant-title">Light Requirements</p>
+                        <div class="but text-center w-100 bg-success">
+                            <a href="#" class="care-guide-link text-light py-3">Add to Card<i class="fa-solid fa-cart-shopping ms-2"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+ 
+
+
+    <!-- footer -->
+    <section class="footer  ">
+        <div class="container">
+            <div class="row pb-4 border-bottom">
+                <div class="col-4">
+                    <div class="main_footer">
+                        <img src="image/logo1.webp" alt="">
+                        <div class="foot_text text-light">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, amet consectetur
+                                adipisicing dolar. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+                                amet consectetur adipisicing dolar.</p>
+                            <div class="icon">
+                                <i class="fa-brands fa-facebook ms-3"></i>
+                                <i class="fa-brands fa-twitter ms-3"></i>
+                                <i class="fa-brands fa-instagram ms-3"></i>
+                                <i class="fa-brands fa-linkedin ms-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="main_footer">
+                        <h3 class="fw-bold text-light">Our Sevices</h3>
+                        <div class="foot_text text-light">
+                            <ul>
+                                <li><a href="#">Garden Design</a></li>
+                                <li><a href="#">Garden Maintenance</a></li>
+                                <li><a href="#">Planting Services</a></li>
+                                <li><a href="#">Irrigation Services</a></li>
+                                <li><a href="#">Specialty Services</a></li>
+                                <li><a href="#">Tree Care</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="main_footer">
+                        <h3 class="fw-bold text-light">Company</h3>
+                        <div class="foot_text text-light">
+                            <ul>
+                                <li><a href="#">Garden Design</a></li>
+                                <li><a href="#">Garden Maintenance</a></li>
+                                <li><a href="#">Planting Services</a></li>
+                                <li><a href="#">Irrigation Services</a></li>
+                                <li><a href="#">Specialty Services</a></li>
+                                <li><a href="#">Tree Care</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="socket">
+                <div class="container">
+                    <div class="row">
+                        <div class="socket">
+                            <p class="text-center text-light">Copyright &copy; 2023 Plant Matchmaker. All rights
+                                reserved design by <strong>Emon</strong></p>
+                        </div>
+                        <div class="time text-center text-light">
+                            <div class="time" id="time"></div>
+                            <div class="date" id="date"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+
+
+    <!-- bootstrap js cdn -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

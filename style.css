@@ -1,0 +1,602 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+/* header */
+.header{
+    background-color: #354E33;
+}
+.nav-link.active.fw-blod {
+	color: green;
+}
+.nav-link.fw-blod {
+	color: #fff;
+	font-weight: bold;
+    transition: .4s;
+}
+.nav-link.fw-blod:hover{
+    color: green;
+
+}
+/*  banner */ 
+
+.bannar{
+    background-image: url(image/bannar.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bannar .bannar_text {
+	background: #13281399;
+	padding: 30px 20px;
+	border-radius: 10px;
+}
+.bannar .bannar_text h1{
+    font-weight: bold;
+}
+.bannar .bannar_text .btn{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #2e8b57;
+    font-weight: bold;
+    transition: .4s;
+}
+.bannar .bannar_text .btn:hover{
+    background-color: #354E33;
+    color: #fff;
+}
+
+/* plan market faq */
+.quiz-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .question-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .question-options {
+    margin-bottom: 30px;
+  }
+
+  .quiz-result {
+    display: none;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #d4edda;
+    border-radius: 5px;
+    border: 1px solid #c3e6cb;
+  }
+
+  .quiz-button {
+    margin-top: 20px;
+  }
+
+  .result-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .result-card {
+    margin-top: 20px;
+  }
+
+  .card-img-top {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+/* vibrate plant photo */
+.plant-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .plant-image:hover {
+    transform: scale(1.05);
+  }
+
+  .plant-container {
+    margin-top: 20px;
+  }
+
+  .plant-card {
+    margin-bottom: 20px;
+  }
+
+  .card-body {
+    text-align: center;
+  }
+
+  .plant-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  /* popular houseplant */
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .section-subtitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #6c757d;
+  }
+
+  .card-body {
+    text-align: center;
+  }
+
+  .card-img-top {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .card-img-top:hover {
+    transform: scale(1.05);
+  }
+
+  .plant-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  /* Custom sections */
+  .section-padding {
+    padding: 60px 0;
+  }
+
+  .section-bg {
+    background-color: #f8f9fa;
+  }
+
+  .section-divider {
+    height: 1px;
+    background-color: #ddd;
+    margin: 40px 0;
+  }
+
+  .about-blooming-oasis {
+    background-color: #e9ecef;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .about-blooming-oasis h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .about-blooming-oasis p {
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+
+  .care-guide-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .care-guide-link:hover {
+    text-decoration: underline;
+  }
+.popular_house .about-blooming-oasis p{
+    font-size: 18px;
+}
+/* footer */
+.footer{
+    background: #354E33;
+    background-image: url(image/footer.webp);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+   padding-top: 80px;
+}
+.footer .foot_text a{
+    text-decoration: none;
+    color: #fff;
+}
+/* innar */
+.innar{
+    background-color: #354E33;
+    background-image: url(image/innar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+/* plan size */
+.quiz-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .question-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .question-options {
+    margin-bottom: 30px;
+  }
+
+  .quiz-button {
+    margin-top: 20px;
+  }
+
+  .result-section {
+    display: none;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #d4edda;
+    border-radius: 5px;
+    border: 1px solid #c3e6cb;
+  }
+
+  .result-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .result-card {
+    margin-top: 20px;
+  }
+
+  .card-img-top {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .form-group {
+    margin-bottom: 30px;
+  }
+/* construct section */
+.tips-container {
+    margin-top: 40px;
+    padding: 40px 0;
+    background-color: #f8f9fa;
+  }
+
+  .tip-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .tip-card img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .tip-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .tip-form .form-control {
+    margin-bottom: 15px;
+  }
+
+  .submit-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+
+  .submit-button:hover {
+    background-color: #218838;
+  }
+
+  .tip-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .tip-text {
+    font-size: 1rem;
+    color: #333;
+  }
+
+  .tip-footer {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 10px;
+  }
+  /* add to card section */
+  .add-to-cart-btn {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #218838;
+}
+
+.options-container {
+    margin-top: 20px;
+}
+
+.product-options label {
+    font-size: 16px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+/* eco_friendly section */
+.eco-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+  }
+
+  .eco-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .eco-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .eco-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .eco-card h5 {
+    font-size: 1.25rem;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+
+  .eco-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+
+  .eco-card-footer {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 10px;
+  }
+
+  .eco-card-header {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .eco-info {
+    font-size: 1rem;
+    color: #333;
+  }
+
+  /* live chat */
+  .chatbox {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    background-color: #fff;
+}
+
+.chatbox .chat-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chatbox .chat-header .fa-xmark {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.chatbox .chat-body {
+    padding: 10px;
+    height: 300px;
+}
+
+.chatbox .chat-body .message-box {
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+    height: 90%;
+}
+
+.chatbox .chat-body .message-box .user {
+    text-align: right;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.chatbox .chat-body .message-box .user span {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+}
+
+.chatbox .chat-body .input-box {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+    height: 10%;
+}
+
+.chatbox .chat-body .input-box .input-group .form-control {
+    background-color: #fff;
+    color: #333;
+}
+
+.chatbox .chat-body .input-box .input-group .input-group-text {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.chatbox .chat-body .input-box .input-group input:focus,
+.chatbox .chat-body .input-box .input-group input:focus~.chatbox .chat-body .input-box .input-group span {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.chatbox .chat-body .input-box .input-group span {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#openChat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 24px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+/* form section */
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .contact-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-control {
+    border-radius: 5px;
+  }
+
+  .submit-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  .submit-btn:hover {
+    background-color: #218838;
+  }
+
+  .form-text {
+    font-size: 0.9rem;
+    color: #888;
+  }

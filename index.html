@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap cdn -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- font awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Plant Mtchmaker</title>
+</head>
+
+<body>
+
+
+    <section class="header">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="image/logo1.webp" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-light">
+                                <li class="nav-item">
+                                    <a class="nav-link  fw-blod" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-blod" href="product.html">Product</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-blod" href="About.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-blod" href="contact.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- bannar section -->
+    <section class="bannar">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="bannar_text">
+                        <h1 class="text-center text-light">Plant Mtchmaker</h1>
+                        <p class="text-center fw-blod text-light">Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Non sunt modi dolorem hic quod cumque aut et eos eveniet necessitatibus, natus
+                            incidunt culpa quas, perspiciatis magnam ad architecto facere sed.</p>
+                        <div class="text-center">
+                            <button type="submit" class="btn">Find Your Plant!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- plant market faq -->
+     <section class="plat_mearketing">
+        <div class="container quiz-container">
+            <h2 class="text-center mb-4 fw-bold">Find Your Perfect Plant</h2>
+        
+            <form action="#quizResult" method="POST">
+              <!-- Question 1: Sunlight -->
+              <div class="mb-4">
+                <label class="form-label" for="sunlightSelect">1. How much sunlight does your space get?</label>
+                <select class="form-select" id="sunlightSelect" name="sunlight" required>
+                  <option value="" disabled selected>Select sunlight level</option>
+                  <option value="Low">Low light</option>
+                  <option value="Medium">Medium light</option>
+                  <option value="High">Direct sunlight</option>
+                </select>
+              </div>
+        
+              <!-- Question 2: Care Level -->
+              <div class="mb-4">
+                <label class="form-label" for="careLevelSelect">2. How much care are you willing to provide?</label>
+                <select class="form-select" id="careLevelSelect" name="careLevel" required>
+                  <option value="" disabled selected>Select care level</option>
+                  <option value="Low">Low maintenance</option>
+                  <option value="Medium">Moderate care</option>
+                  <option value="High">High maintenance</option>
+                </select>
+              </div>
+        
+              <!-- Question 3: Pet-Friendliness -->
+              <div class="mb-4">
+                <label class="form-label" for="petsSelect">3. Do you have pets?</label>
+                <select class="form-select" id="petsSelect" name="pets" required>
+                  <option value="" disabled selected>Select pet-friendliness</option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+              </div>
+        
+              <!-- Submit Button -->
+              <div class="d-grid">
+                <button type="submit" class="btn btn-success quiz-button">Find My Plant!</button>
+              </div>
+            </form>
+        
+            <!-- Result Section (Hidden by default) -->
+            <div id="quizResult" class="quiz-result">
+              <p>Thank you for completing the quiz! Based on your answers, we recommend the following plant:</p>
+              <!-- Result card for a recommended plant -->
+              <div class="card result-card">
+                <img src="https://via.placeholder.com/300x200?text=Snake+Plant" class="card-img-top" alt="Recommended Plant">
+                <div class="card-body">
+                  <h5 class="card-title">Snake Plant</h5>
+                  <p class="card-text">Perfect for low maintenance and low light spaces. Also safe for pets!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+     </section>
+
+    <!--  vibrate plant photo -->
+    <section class="vibrate_plant py-3">
+        <div class="container plant-container">
+            <h2 class="text-center mb-4 fw-bold">Vibrate plant</h2>
+            <div class="row">
+              <!-- Plant 1 -->
+              <div class="col-md-4 col-sm-6">
+                <div class="card plant-card overflow-hidden">
+                  <img src="image/1.webp" class="plant-image card-img-top" alt="Plant 1">
+                  <div class="card-body">
+                    <p class="plant-title">Lush Fern</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Plant 2 -->
+              <div class="col-md-4 col-sm-6">
+                <div class="card plant-card overflow-hidden">
+                  <img src="image/2.webp" class="plant-image card-img-top" alt="Plant 2">
+                  <div class="card-body">
+                    <p class="plant-title">Vibrant Orchid</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Plant 3 -->
+              <div class="col-md-4 col-sm-6">
+                <div class="card plant-card overflow-hidden">
+                  <img src="image/3.webp" class="plant-image card-img-top" alt="Plant 3">
+                  <div class="card-body">
+                    <p class="plant-title">Exotic Aloe Vera</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Plant 4 -->
+              <div class="col-md-4 col-sm-6">
+                <div class="card plant-card overflow-hidden">
+                  <img src="image/4.webp" class="plant-image card-img-top" alt="Plant 4">
+                  <div class="card-body">
+                    <p class="plant-title">Tropical Palm</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Plant 5 -->
+              <div class="col-md-4 col-sm-6">
+                <div class="card plant-card overflow-hidden">
+                  <img src="image/5.webp" class="plant-image card-img-top " alt="Plant 5">
+                  <div class="card-body">
+                    <p class="plant-title">Succulent Collection</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Plant 6 -->
+              <div class="col-md-4 col-sm-6">
+                <div class="card plant-card overflow-hidden">
+                  <img src="image/6.webp" class="plant-image card-img-top" alt="Plant 6">
+                  <div class="card-body">
+                    <p class="plant-title">Colorful Bougainvillea</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- popular house plant -->
+
+    <section class="popular_house">
+        <div class="container section-padding" id="popular-houseplants">
+            <h2 class="section-title">Popular Houseplants</h2>
+            <p class="section-subtitle">Our top picks for beautiful and easy-to-care-for plants.</p>
+            <div class="row">
+              <!-- Plant 1 -->
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                  <img src="image/1.webp" class="card-img-top" alt="Ficus Tree">
+                  <div class="card-body">
+                    <p class="plant-title">Ficus Tree</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Plant 2 -->
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                  <img src="image/2.webp" class="card-img-top" alt="Snake Plant">
+                  <div class="card-body">
+                    <p class="plant-title">Snake Plant</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Plant 3 -->
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                  <img src="image/3.webp" class="card-img-top" alt="Peace Lily">
+                  <div class="card-body">
+                    <p class="plant-title">Peace Lily</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Curated Collections Section -->
+          <div class="container section-padding section-bg" id="curated-collections">
+            <h2 class="section-title">Curated Collections</h2>
+            <p class="section-subtitle">Explore our themed plant sets for your home and office.</p>
+            <div class="row">
+              <!-- Collection 1 -->
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                  <img src="image/4.webp" class="card-img-top" alt="Succulent Collection">
+                  <div class="card-body">
+                    <p class="plant-title">Succulent Collection</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Collection 2 -->
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                  <img src="image/5.webp" class="card-img-top" alt="Tropical Paradise">
+                  <div class="card-body">
+                    <p class="plant-title">Tropical Paradise</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Collection 3 -->
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                  <img src="image/6.webp" class="card-img-top" alt="Air Purifying Plants">
+                  <div class="card-body">
+                    <p class="plant-title">Air Purifying Plants</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Plant Care Guides Section -->
+          <div class="container section-padding" id="plant-care-guides">
+            <h2 class="section-title">Plant Care Guides</h2>
+            <p class="section-subtitle">Learn how to keep your plants healthy and thriving.</p>
+            <div class="row">
+              <!-- Care Guide 1 -->
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <img src="image/1.webp" class="card-img-top" alt="Indoor Plant Care">
+                  <div class="card-body">
+                    <p class="plant-title">Indoor Plant Care</p>
+                    <a href="#" class="care-guide-link">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Care Guide 2 -->
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <img src="image/2.webp" class="card-img-top" alt="Watering Tips">
+                  <div class="card-body">
+                    <p class="plant-title">Watering Tips</p>
+                    <a href="#" class="care-guide-link">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Care Guide 3 -->
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <img src="image/4.webp" class="card-img-top" alt="Light Requirements">
+                  <div class="card-body">
+                    <p class="plant-title">Light Requirements</p>
+                    <a href="#" class="care-guide-link">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- About Blooming Oasis Section -->
+          <div class="container about-blooming-oasis" id="about-blooming-oasis">
+            <h2>About Blooming Oasis</h2>
+            <p>At Blooming Oasis, we are passionate about helping you create the perfect green space in your home. Whether you're a seasoned plant parent or a beginner, our carefully curated collections and expert care guides will ensure your plants thrive. Join our community of plant lovers and bring more life into your living space.</p>
+          </div>
+    </section>
+
+ 
+
+
+    <!-- footer -->
+    <section class="footer  ">
+        <div class="container">
+            <div class="row pb-4 border-bottom">
+                <div class="col-sm-12 col-md-4">
+                    <div class="main_footer">
+                        <img src="image/logo1.webp" alt="">
+                        <div class="foot_text text-light">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, amet consectetur
+                                adipisicing dolar. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+                                amet consectetur adipisicing dolar.</p>
+                            <div class="icon">
+                                <i class="fa-brands fa-facebook ms-3"></i>
+                                <i class="fa-brands fa-twitter ms-3"></i>
+                                <i class="fa-brands fa-instagram ms-3"></i>
+                                <i class="fa-brands fa-linkedin ms-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="main_footer">
+                        <h3 class="fw-bold text-light mt-3">Our Sevices</h3>
+                        <div class="foot_text text-light">
+                            <ul>
+                                <li><a href="#">Garden Design</a></li>
+                                <li><a href="#">Garden Maintenance</a></li>
+                                <li><a href="#">Planting Services</a></li>
+                                <li><a href="#">Irrigation Services</a></li>
+                                <li><a href="#">Specialty Services</a></li>
+                                <li><a href="#">Tree Care</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="main_footer">
+                        <h3 class="fw-bold text-light mt-3">Company</h3>
+                        <div class="foot_text text-light">
+                            <ul>
+                                <li><a href="#">Garden Design</a></li>
+                                <li><a href="#">Garden Maintenance</a></li>
+                                <li><a href="#">Planting Services</a></li>
+                                <li><a href="#">Irrigation Services</a></li>
+                                <li><a href="#">Specialty Services</a></li>
+                                <li><a href="#">Tree Care</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="socket">
+                <div class="container">
+                    <div class="row">
+                        <div class="socket">
+                            <p class="text-center text-light">Copyright &copy; 2023 Plant Matchmaker. All rights
+                                reserved design by <strong>Emon</strong></p>
+                        </div>
+                        <div class="time text-center text-light">
+                            <div class="time" id="time"></div>
+                            <div class="date" id="date"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+
+
+    <!-- bootstrap js cdn -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
